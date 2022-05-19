@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size:18px ;
+}
+body{
+    background-image: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+}
+.col-md-6{
+    border: 5px solid black;
+    margin-top: 150px !important;
+    padding: 20px;
+    background-color: white;
+}
+label{
+    color: blue;
+}
+.contaier{
+    width: 45%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25) !important;
+
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+
+}
+input:focus{
+    border-color:blue ;
+}
